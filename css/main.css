@@ -125,6 +125,7 @@ body {
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
+  display: flex;
   width: 50%;
   background: #222;
   background:rgba(0,0,0,0.7);
@@ -136,7 +137,7 @@ body {
   border-radius: 10px;
   padding: 0 30px 0 30px;
   text-align: center;
-  flex-wrap: wrap;
+  flex-wrap: row wrap;
   margin: 0.625em;
 }
 
